@@ -137,11 +137,11 @@ GEMINI_API_KEY=your_actual_gemini_api_key_here
 
 ## 💻 Running the Application
 
-### Option 1: Run the Desktop GUI
+### Option 1: Run the Streamlit UI
 ```powershell
-python run_app.py
+python -m streamlit run ui/streamlit_app.py
 ```
-This launches the Streamlit interface locally at `http://localhost:8501`.
+This launches the Streamlit interface locally at `http://localhost:8501`. The repository does not currently include a `run_app.py` launcher.
 
 ### Option 2: Run CLI Backend Verification
 ```powershell
@@ -151,13 +151,6 @@ Directly outputs the parsed JSON to the console and saves `parsed_result.json` i
 
 ---
 
-## 📦 Packaging to Windows Executable (.exe)
+## 📦 Windows Executable
 
-Compile into a standalone executable directory:
-
-```powershell
-python -m PyInstaller --noconfirm --onedir --windowed --copy-metadata streamlit --collect-all streamlit --add-data "ui;ui" --add-data "src;src" --add-data ".env;." run_app.py
-```
-
-- **Output Location**: `dist\run_app\run_app.exe`
-- When distributing the folder, make sure the `.env` file exists alongside `run_app.exe` inside `dist\run_app\`.
+Standalone Windows executable packaging is not currently supported. The repository does not include the `run_app.py` launcher required by the packaging command; run the app with Streamlit as described above.
