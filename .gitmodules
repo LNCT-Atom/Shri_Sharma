@@ -1,0 +1,3 @@
+[submodule "og-resume-parser"]
+	path = og-resume-parser
+	url = https://github.com/Shrisharma37/og-resume-parser.git
