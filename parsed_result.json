@@ -1,0 +1,142 @@
+{
+  "profile": {
+    "full_name": "Aanya Sharma",
+    "email": "aanya002sharma@gmail.com",
+    "phone": "+91-9644021205",
+    "location": null,
+    "linkedin_url": "https://www.linkedin.com/in/aanya-sharma-82b394326",
+    "github_url": "https://github.com/aanyash02",
+    "portfolio_url": null,
+    "summary": "UnderGrad"
+  },
+  "education": [
+    {
+      "institution": "Lakshmi Narain College of Technology",
+      "degree": "Btech",
+      "field_of_study": "Artificial Intelligence and Machine Learning",
+      "start_date": "2024",
+      "end_date": "2028",
+      "grade_or_gpa": "8.12"
+    },
+    {
+      "institution": "Carmel Convent Sr. Sec School",
+      "degree": "Class 12th",
+      "field_of_study": "CBSE",
+      "start_date": null,
+      "end_date": "2024",
+      "grade_or_gpa": "72.3%"
+    },
+    {
+      "institution": "Carmel Convent Sr. Sec School",
+      "degree": "Class 10th",
+      "field_of_study": "CBSE",
+      "start_date": null,
+      "end_date": "2022",
+      "grade_or_gpa": "94.2%"
+    }
+  ],
+  "technical_skills": {
+    "technologies": [
+      "Java",
+      "DSA",
+      "SQL",
+      "PostgreSQL",
+      "HTML+CSS",
+      "Visual Studio Code",
+      "MySQL",
+      "Microsoft Office",
+      "GitHub",
+      "Java-AWT",
+      "Swing",
+      "HTML5",
+      "Tailwind CSS",
+      "Vanilla JavaScript",
+      "Canvas API",
+      "React.js",
+      "FastAPI",
+      "Python",
+      "Google Gemini AI",
+      "Supabase",
+      "Vercel",
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "Recharts",
+      "qr-code.react"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Banking Management System",
+      "role": null,
+      "description": "model Internet Banking Site – An application for maintaining a person’s account in a bank and to provide secure and efficient banking facilities",
+      "technologies": [
+        "Java-AWT",
+        "Swing",
+        "MySQL"
+      ]
+    },
+    {
+      "title": "Hogwarts-Themed Web Portfolio",
+      "role": null,
+      "description": "Hogwarts-Inspired Developer Portfolio – A dynamic, magical-themed personal portfolio featuring dual viewing modes, synchronized audio-visual sequences, and custom interactive effects.",
+      "technologies": [
+        "HTML5",
+        "Tailwind CSS",
+        "Vanilla JavaScript",
+        "Canvas API"
+      ]
+    },
+    {
+      "title": "WanderWise – Personalized Travel Itinerary Planner",
+      "role": null,
+      "description": "AI-Based Travel Planning Web Application – Developed an AI-powered web application that generates personalized travel itineraries.",
+      "technologies": [
+        "React.js",
+        "FastAPI",
+        "Python",
+        "Google Gemini AI",
+        "Supabase",
+        "Vercel"
+      ]
+    },
+    {
+      "title": "Startup2Gov — Public Procurement & Sandbox Platform",
+      "role": null,
+      "description": "A platform for government-startup innovation procurement via sandbox pilots and milestone-gated disbursements – Built a full-stack platform enabling government departments to post outcome-based challenges and conduct controlled innovation pilots.",
+      "technologies": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express",
+        "Supabase",
+        "PostgreSQL",
+        "Recharts",
+        "qr-code.react"
+      ]
+    }
+  ],
+  "experience": [],
+  "certifications": [
+    "Google AI Professional 2026 Coursera",
+    "Cisco AICTE Virtual Internship Program 2026 in AI",
+    "Program in Digital Assets, Decentralized Finance (DeFi), Blockchain, and AI 2026 SheFi Foundation",
+    "Generative AI Foundations 2026 AWS Academy",
+    "Introduction to AI Coding 2026 SheCodes Foundation",
+    "Cloud Foundations 2026 AWS Academy"
+  ],
+  "achievements": [],
+  "metadata": {
+    "parser_version": "1.0",
+    "status": "completed",
+    "created_at": "2026-11-01T10:25:08.765638+00:00",
+    "parsed_at": "2026-11-01T10:25:08.765638+00:00",
+    "file_name": ".\\AANYA SHARMA resume (PHOTO) - Aanya Sharma.pdf",
+    "file_hash": "2ca5fc5c03d7f4494a08d895f47b77a602b971c374343fffb6b7e6742ee800c0",
+    "file_size_bytes": 186807,
+    "ai_called_for_projects_or_experience": true,
+    "is_scanned_pdf": false
+  }
+}
