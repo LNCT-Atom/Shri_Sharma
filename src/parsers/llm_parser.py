@@ -24,7 +24,10 @@ class ResumeLLMParser:
         JSON Schema requirements:
         - profile: {{ full_name, email, phone, location, linkedin_url, github_url, portfolio_url, summary }}
         - education: list of {{ institution, degree, field_of_study, start_date, end_date, grade_or_gpa }}
-        - technical_skills: {{ technologies: [] }}
+        - CRITICAL EXTRACTION RULES:
+        1. 'technical_skills':
+           - STRICT ISOLATION RULE: Populate 'technical_skills.technologies' ONLY with skills, tools, languages, and frameworks explicitly written under the candidate's designated 'Skills' / 'Technical Skills' / 'Core Competencies' section.
+           - DO NOT infer, aggregate, or pull any technologies from 'Projects' or 'Experience' / 'Work History' sections into 'technical_skills'. If a tool is only mentioned in a project or work experience, DO NOT add it to 'technical_skills.technologies'.
         - projects: list of {{ title, role, description, technologies: [] }}
         - experience: list of {{ company, role, experience_type, start_date, end_date, description, technologies: [] }}
         - certifications: []
